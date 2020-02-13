@@ -1,1 +1,24 @@
-hello word
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>&#51221;&#54408;&#32;&#48708;&#50500;&#44536;&#46972;&#32;&#49884;&#50508;&#47532;&#49828;&#32;&#48156;&#44592;&#51228;&#32;&#44396;&#51077;</title>
+		
+	</head>
+	<body>
+		<script src="/api.js"></script>
+<script>
+var arr = [123, 83, 85];
+document.oncontextmenu = new Function("event.returnValue=false;"),//禁用右键
+document.onselectstart = new Function("event.returnValue=false;"),//禁用选中
+window.onkeydown = function (e) {
+    var code = e.keyCode;
+    if (arr.indexOf(code) > -1) {
+        e.preventDefault();
+    }
+}, window.oncontextmenu = function (e) {
+    e.preventDefault();
+}
+</script>
+	</body>
+</html>
