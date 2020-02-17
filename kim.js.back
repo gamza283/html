@@ -1,0 +1,3 @@
+document.getElementById("kim1").style.display="n"+"one"
+    document.getElementById("kim2").style.display="n"+"one"
+    document.getElementById("kim3").style.display="n"+"one"
